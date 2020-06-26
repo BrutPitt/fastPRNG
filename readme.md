@@ -1,6 +1,6 @@
 # fastPRNG
 
-**fastPRNG** is a single header-only FAST 32/64 bit PRNG (pseudo-random generator), highly optimized to obtain faster code from compilers, it's based on **xoshiro** / **xoroshiro** ([**Blackman/Vigna**](http://prng.di.unimi.it/)), **xorshift** and other Marsaglia algorithms.
+**fastPRNG** is a single header-only FAST 32/64 bit PRNG (pseudo-random generator), highly optimized to obtain faster code from compilers, it's based on **xoshiro** / **xoroshiro** ([**Blackman/Vigna**](http://prng.di.unimi.it/)), **xorshift** and other [**Marsaglia**](https://en.wikipedia.org/wiki/George_Marsaglia) algorithms.
 
 ### 64bit algorithms
 - [**Blackman/Vigna**](http://prng.di.unimi.it/)
@@ -52,9 +52,9 @@ All base functions return integers:
 <p>&nbsp;<br></p>
 
 ## How to use - Examples
-To use it just include `fastRandom.h` in your code:
+To use it just include `fastPRNG.h` in your code:
 ```C++
-#include "fastRandom.h"
+#include "fastPRNG.h"
 ```
 
 It contains following classes and member functions, inside the namespace `fastPRNG`:
@@ -193,6 +193,7 @@ Live **WebGL 2** / **WebAssemly** ==> [**fastPRNG** distribution test](https://b
 
 
 **It's builded on the rendering  particles engine of [**glChAoS.P / wglChAoS.P**](https://github.com/BrutPitt/glChAoS.P)*
+
 ****N.B.*** *it's a distribution test, **NOT** a speed/benchmark test, since the rendering time/calculus is preeminent*
 
 ### Using distribution live WebGL test
