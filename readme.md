@@ -171,7 +171,7 @@ Classes and functions are currently used
 
 | Hypercomplex fractals with stochastic IIM (Inverse Iteration Method) algorithms | DLA 3D (Diffusion Limited Aggregation) algorithm |
 | :---: | :---: |
-[![](https://raw.githubusercontent.com/BrutPitt/myRepos/master/glChAoSP/screenShots/dla3D.jpg)](https://twitter.com/i/status/1120431893818769409)|[![](https://user-images.githubusercontent.com/16171743/50758310-1f231a80-1262-11e9-8065-3199292ff9f1.jpg)](https://www.michelemorrone.eu/glchaosp/Hypercomplex.html)|
+[![](https://user-images.githubusercontent.com/16171743/50758310-1f231a80-1262-11e9-8065-3199292ff9f1.jpg)](https://twitter.com/i/status/1120431893818769409)|[![](https://raw.githubusercontent.com/BrutPitt/myRepos/master/glChAoSP/screenShots/dla3D.jpg)](https://www.michelemorrone.eu/glchaosp/DLA3D.html)|
 
 - [x] [**DLAf-optimized**](https://github.com/BrutPitt/DLAf-optimized) fast DLA (Diffusion Limited Aggregation) 2D/3D
 
@@ -192,8 +192,7 @@ Live **WebGL 2** / **WebAssemly** ==> [**fastPRNG** distribution test](https://b
 | ![sShot_20191118_173632](https://raw.githubusercontent.com/BrutPitt/myRepos/master/fastPRNG/screenShots/sShot_2020626_185416.jpg)| ![sShot_20191113_43629](https://raw.githubusercontent.com/BrutPitt/myRepos/master/fastPRNG/screenShots/sShot_2020626_34411.jpg) | ![sShot_20191112_04710](https://raw.githubusercontent.com/BrutPitt/myRepos/master/fastPRNG/screenShots/sShot_2020626_33921.jpg) |
 
 
-**It's builded on the rendering  particles engine of [**glChAoS.P / wglChAoS.P**](https://github.com/BrutPitt/glChAoS.P)*
-
+**It's builded on the rendering  particles engine of [**glChAoS.P / wglChAoS.P**](https://github.com/BrutPitt/glChAoS.P)*\
 ****N.B.*** *it's a distribution test, **NOT** a speed/benchmark test, since the rendering time/calculus is preeminent*
 
 ### Using distribution live WebGL test
@@ -209,8 +208,8 @@ The **JavaScript** / **WebGL** version is slower of Desktop one, so the test sta
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; from .01M (10'000) to `maxbuffer` (default 15M pre-allocated) particles
 
 **You can resize pre-allocated buffer changing the URL value of `maxbuffer` (in your browser address box) 
-(e.g. maxbuffer=30 pre allocate a 30M particles memory buffer)* 
+(e.g. `maxbuffer=30` pre allocate a 30M particles memory buffer)* 
 
 #### Desktop
-If you want use the desktop version (available for Windows / Linux / MacOS), please download [**glChAoS.P / wglChAoS.P**](https://github.com/BrutPitt/glChAoS.P) and build it with `-DGLCHAOSP_TEST_RANDOM_DISTRIBUTION` or enable the `#define GLCHAOSP_TEST_RANDOM_DISTRIBUTION` in [attractorsBase.h](https://github.com/BrutPitt/glChAoS.P/blob/e7787a25957ee04674cddc852d7aca8d5af4b5ab/src/src/attractorsBase.h#L1653)
+If you want use the desktop version (available for Windows / Linux / MacOS), please download [**glChAoS.P / wglChAoS.P**](https://github.com/BrutPitt/glChAoS.P) and build it with `-DGLCHAOSP_TEST_RANDOM_DISTRIBUTION` or enable the `#define GLCHAOSP_TEST_RANDOM_DISTRIBUTION` in [attractorsBase.h](https://github.com/BrutPitt/glChAoS.P/blob/e7787a25957ee04674cddc852d7aca8d5af4b5ab/src/src/attractorsBase.h#L1653) file
 
