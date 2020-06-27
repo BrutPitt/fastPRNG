@@ -160,7 +160,7 @@ It contains following classes and member functions, inside the namespace `fastPR
 ```
 **classes **fastXS32s** and **fastXS64s** don't have `seed()` function: they have/are only static members.*
 
-For more details, pleas look the source file: it's well documented.
+For more details look at the source file: it's well documented.
 
 <p>&nbsp;<br></p>
 
@@ -169,7 +169,7 @@ Classes and functions are currently used
 
 - [x] [**glChAoS.P / wglChAoS.P**](https://github.com/BrutPitt/glChAoS.P) Realtime 3D GPUs Strange Attractors and Hypercomplex Fractals scout
 
-| Hypercomplex fractals with stochastic IIM (Inverse Iteration Method) algorithms | DLA 3D (Diffusion Limited Aggregation) algorithm |
+| Hypercomplex fractals with stochastic IIM <br>(Inverse Iteration Method) algorithm | DLA 3D (Diffusion Limited Aggregation) algorithm |
 | :---: | :---: |
 [![](https://user-images.githubusercontent.com/16171743/50758310-1f231a80-1262-11e9-8065-3199292ff9f1.jpg)](https://twitter.com/i/status/1120431893818769409)|[![](https://raw.githubusercontent.com/BrutPitt/myRepos/master/glChAoSP/screenShots/dla3D.jpg)](https://www.michelemorrone.eu/glchaosp/DLA3D.html)|
 
@@ -181,7 +181,7 @@ Classes and functions are currently used
 
 All functions are tested, below the distribution test in a cube with [-1.0, 1.0] side.
 
-Live **WebGL 2** / **WebAssemly** ==> [**fastPRNG** distribution test](https://brutpitt.github.io/myRepos/fastPRNG/testPRNG/testPRNG.html?width=1440&height=1024&maxbuffer=15&lowprec=0&intbuffer=10&tabletmode=0&glowOFF=1&lightGUI=0)
+Live **WebGL 2** / **WebAssemly** ==> [**fastPRNG** distribution test](https://brutpitt.github.io/myRepos/fastPRNG/testPRNG/testPRNG.html?width=1440&height=1024&maxbuffer=15&lowprec=0&intbuffer=10&tabletmode=0&glowOFF=1&lightGUI=0)\
 **Only FireFox and Chromium based web-browsers (Chrome / Opera / new Edge / etc.) are supported*
 
 
@@ -192,7 +192,8 @@ Live **WebGL 2** / **WebAssemly** ==> [**fastPRNG** distribution test](https://b
 | ![sShot_20191118_173632](https://raw.githubusercontent.com/BrutPitt/myRepos/master/fastPRNG/screenShots/sShot_2020626_185416.jpg)| ![sShot_20191113_43629](https://raw.githubusercontent.com/BrutPitt/myRepos/master/fastPRNG/screenShots/sShot_2020626_34411.jpg) | ![sShot_20191112_04710](https://raw.githubusercontent.com/BrutPitt/myRepos/master/fastPRNG/screenShots/sShot_2020626_33921.jpg) |
 
 
-**It's builded on the rendering  particles engine of [**glChAoS.P / wglChAoS.P**](https://github.com/BrutPitt/glChAoS.P)*\
+**It's builded on the rendering  particles engine of [**glChAoS.P / wglChAoS.P**](https://github.com/BrutPitt/glChAoS.P)*
+
 ****N.B.*** *it's a distribution test, **NOT** a speed/benchmark test, since the rendering time/calculus is preeminent*
 
 ### Using distribution live WebGL test
